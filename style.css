@@ -1,0 +1,32 @@
+/* css reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+/* fonts */
+@font-face {
+  font-family: digital;
+  src: url(./assets/fonts/digital-7.ttf);
+}
+body {
+  font-family: digital;
+  background-color: #000;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.clock,
+.clock2 {
+  font-size: 90px;
+  letter-spacing: 10px;
+  color: rgb(0, 255, 0);
+}
